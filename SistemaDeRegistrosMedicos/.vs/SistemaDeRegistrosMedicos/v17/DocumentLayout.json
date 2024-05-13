@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\delmy\\Desktop\\Proyecto_Final_Progra(EMR)\\SistemaDeRegistrosMedicos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB47194E-5F02-4641-802C-EC5BE8E74B23}|SistemaDeRegistrosMedicos.csproj|c:\\users\\delmy\\desktop\\proyecto_final_progra(emr)\\sistemaderegistrosmedicos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB47194E-5F02-4641-802C-EC5BE8E74B23}|SistemaDeRegistrosMedicos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\Proyecto_Final_Progra(EMR)\\SistemaDeRegistrosMedicos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\Proyecto_Final_Progra(EMR)\\SistemaDeRegistrosMedicos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:37:34.425Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

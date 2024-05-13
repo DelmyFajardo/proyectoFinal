@@ -1,0 +1,13 @@
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\bin\Debug\Registro.exe.config
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\bin\Debug\Registro.exe
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\bin\Debug\Registro.pdb
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.csproj.AssemblyReference.cache
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.Doctores.resources
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.Form1.resources
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.Form2.resources
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.Pacientes.resources
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.Properties.Resources.resources
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.csproj.GenerateResource.cache
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.csproj.CoreCompileInputs.cache
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.exe
+C:\Users\delmy\Desktop\Proyecto_Final_Progra(EMR)\Registro\obj\Debug\Registro.pdb
