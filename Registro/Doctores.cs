@@ -16,5 +16,10 @@ namespace Registro
         {
             InitializeComponent();
         }
+
+        private void Doctores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
