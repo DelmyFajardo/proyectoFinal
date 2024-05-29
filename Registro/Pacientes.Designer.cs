@@ -30,45 +30,45 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pacientes));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNombrePaciente = new System.Windows.Forms.TextBox();
+            this.GeneroPacienteCb = new System.Windows.Forms.ComboBox();
+            this.txtDireccionPaciente = new System.Windows.Forms.TextBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.PacDOB = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtTelPaciente = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.VIHPacienteCb = new System.Windows.Forms.ComboBox();
+            this.txtAlergiasPaciente = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnAgregarPac = new System.Windows.Forms.Button();
+            this.btnEliminarPac = new System.Windows.Forms.Button();
+            this.btnEditarPac = new System.Windows.Forms.Button();
+            this.PacientesDGV = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PacientesDGV)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -90,6 +90,73 @@
             this.panel2.Size = new System.Drawing.Size(215, 695);
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(66, 645);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(49, 22);
+            this.label5.TabIndex = 30;
+            this.label5.Text = "Salir";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(66, 408);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(124, 22);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Recepcionista";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(66, 312);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(109, 22);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "Laboratorio";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(66, 221);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(84, 22);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Doctores";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(66, 136);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 22);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "Pacientes";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(83, 33);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(46, 43);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 21;
+            this.pictureBox12.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -146,35 +213,35 @@
             this.pictureBox5.TabIndex = 11;
             this.pictureBox5.TabStop = false;
             // 
-            // textBox1
+            // txtNombrePaciente
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(277, 132);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 26);
-            this.textBox1.TabIndex = 6;
+            this.txtNombrePaciente.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombrePaciente.Location = new System.Drawing.Point(277, 132);
+            this.txtNombrePaciente.Name = "txtNombrePaciente";
+            this.txtNombrePaciente.Size = new System.Drawing.Size(186, 26);
+            this.txtNombrePaciente.TabIndex = 6;
             // 
-            // comboBox1
+            // GeneroPacienteCb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.GeneroPacienteCb.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GeneroPacienteCb.FormattingEnabled = true;
+            this.GeneroPacienteCb.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.comboBox1.Location = new System.Drawing.Point(509, 130);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(89, 27);
-            this.comboBox1.TabIndex = 8;
-            this.comboBox1.Text = "Genero";
+            this.GeneroPacienteCb.Location = new System.Drawing.Point(509, 130);
+            this.GeneroPacienteCb.Name = "GeneroPacienteCb";
+            this.GeneroPacienteCb.Size = new System.Drawing.Size(89, 27);
+            this.GeneroPacienteCb.TabIndex = 8;
+            this.GeneroPacienteCb.Text = "Genero";
             // 
-            // textBox2
+            // txtDireccionPaciente
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(946, 130);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(186, 100);
-            this.textBox2.TabIndex = 13;
+            this.txtDireccionPaciente.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccionPaciente.Location = new System.Drawing.Point(946, 130);
+            this.txtDireccionPaciente.Multiline = true;
+            this.txtDireccionPaciente.Name = "txtDireccionPaciente";
+            this.txtDireccionPaciente.Size = new System.Drawing.Size(186, 100);
+            this.txtDireccionPaciente.TabIndex = 13;
             // 
             // pictureBox6
             // 
@@ -198,73 +265,6 @@
             this.label12.TabIndex = 25;
             this.label12.Text = "Nombre del Paciente";
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(83, 33);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(46, 43);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 21;
-            this.pictureBox12.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(66, 136);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 22);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "Pacientes";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(66, 221);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 22);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "Doctores";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(66, 312);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 22);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Laboratorio";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(66, 408);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 22);
-            this.label4.TabIndex = 29;
-            this.label4.Text = "Recepcionista";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(66, 645);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 22);
-            this.label5.TabIndex = 30;
-            this.label5.Text = "Salir";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -287,13 +287,13 @@
             this.label15.TabIndex = 27;
             this.label15.Text = "Sistema de Registro Médico ";
             // 
-            // dateTimePicker2
+            // PacDOB
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(277, 204);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(186, 26);
-            this.dateTimePicker2.TabIndex = 28;
+            this.PacDOB.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PacDOB.Location = new System.Drawing.Point(277, 204);
+            this.PacDOB.Name = "PacDOB";
+            this.PacDOB.Size = new System.Drawing.Size(186, 26);
+            this.PacDOB.TabIndex = 28;
             // 
             // label7
             // 
@@ -317,13 +317,13 @@
             this.label8.TabIndex = 30;
             this.label8.Text = "Dirección";
             // 
-            // textBox5
+            // txtTelPaciente
             // 
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(509, 204);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(186, 26);
-            this.textBox5.TabIndex = 31;
+            this.txtTelPaciente.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelPaciente.Location = new System.Drawing.Point(509, 204);
+            this.txtTelPaciente.Name = "txtTelPaciente";
+            this.txtTelPaciente.Size = new System.Drawing.Size(186, 26);
+            this.txtTelPaciente.TabIndex = 31;
             // 
             // label9
             // 
@@ -336,27 +336,27 @@
             this.label9.TabIndex = 32;
             this.label9.Text = "Telefono";
             // 
-            // comboBox3
+            // VIHPacienteCb
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.VIHPacienteCb.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIHPacienteCb.FormattingEnabled = true;
+            this.VIHPacienteCb.Items.AddRange(new object[] {
             "Positivo",
             "Negativo"});
-            this.comboBox3.Location = new System.Drawing.Point(615, 131);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(89, 27);
-            this.comboBox3.TabIndex = 33;
-            this.comboBox3.Text = " VIH";
+            this.VIHPacienteCb.Location = new System.Drawing.Point(615, 131);
+            this.VIHPacienteCb.Name = "VIHPacienteCb";
+            this.VIHPacienteCb.Size = new System.Drawing.Size(89, 27);
+            this.VIHPacienteCb.TabIndex = 33;
+            this.VIHPacienteCb.Text = " VIH";
             // 
-            // textBox6
+            // txtAlergiasPaciente
             // 
-            this.textBox6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(740, 130);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(186, 100);
-            this.textBox6.TabIndex = 34;
+            this.txtAlergiasPaciente.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAlergiasPaciente.Location = new System.Drawing.Point(740, 130);
+            this.txtAlergiasPaciente.Multiline = true;
+            this.txtAlergiasPaciente.Name = "txtAlergiasPaciente";
+            this.txtAlergiasPaciente.Size = new System.Drawing.Size(186, 100);
+            this.txtAlergiasPaciente.TabIndex = 34;
             // 
             // label13
             // 
@@ -369,53 +369,57 @@
             this.label13.TabIndex = 35;
             this.label13.Text = "Alergias";
             // 
-            // dataGridView1
+            // btnAgregarPac
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(237, 327);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(895, 355);
-            this.dataGridView1.TabIndex = 36;
+            this.btnAgregarPac.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnAgregarPac.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarPac.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarPac.Location = new System.Drawing.Point(433, 272);
+            this.btnAgregarPac.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
+            this.btnAgregarPac.Name = "btnAgregarPac";
+            this.btnAgregarPac.Size = new System.Drawing.Size(126, 38);
+            this.btnAgregarPac.TabIndex = 37;
+            this.btnAgregarPac.Text = "Agregar";
+            this.btnAgregarPac.UseVisualStyleBackColor = false;
+            this.btnAgregarPac.Click += new System.EventHandler(this.btnAgregarPac_Click);
             // 
-            // button4
+            // btnEliminarPac
             // 
-            this.button4.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(433, 272);
-            this.button4.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(126, 38);
-            this.button4.TabIndex = 37;
-            this.button4.Text = "Agregar";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnEliminarPac.BackColor = System.Drawing.Color.Red;
+            this.btnEliminarPac.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarPac.ForeColor = System.Drawing.Color.White;
+            this.btnEliminarPac.Location = new System.Drawing.Point(605, 272);
+            this.btnEliminarPac.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
+            this.btnEliminarPac.Name = "btnEliminarPac";
+            this.btnEliminarPac.Size = new System.Drawing.Size(126, 38);
+            this.btnEliminarPac.TabIndex = 38;
+            this.btnEliminarPac.Text = "Eliminar";
+            this.btnEliminarPac.UseVisualStyleBackColor = false;
+            this.btnEliminarPac.Click += new System.EventHandler(this.btnEliminarPac_Click);
             // 
-            // button5
+            // btnEditarPac
             // 
-            this.button5.BackColor = System.Drawing.Color.Red;
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(605, 272);
-            this.button5.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(126, 38);
-            this.button5.TabIndex = 38;
-            this.button5.Text = "Eliminar";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnEditarPac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnEditarPac.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarPac.ForeColor = System.Drawing.Color.White;
+            this.btnEditarPac.Location = new System.Drawing.Point(777, 272);
+            this.btnEditarPac.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
+            this.btnEditarPac.Name = "btnEditarPac";
+            this.btnEditarPac.Size = new System.Drawing.Size(126, 38);
+            this.btnEditarPac.TabIndex = 39;
+            this.btnEditarPac.Text = "Editar";
+            this.btnEditarPac.UseVisualStyleBackColor = false;
+            this.btnEditarPac.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button6
+            // PacientesDGV
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(777, 272);
-            this.button6.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(126, 38);
-            this.button6.TabIndex = 39;
-            this.button6.Text = "Editar";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.PacientesDGV.BackgroundColor = System.Drawing.Color.White;
+            this.PacientesDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.PacientesDGV.Location = new System.Drawing.Point(237, 312);
+            this.PacientesDGV.Name = "PacientesDGV";
+            this.PacientesDGV.Size = new System.Drawing.Size(895, 355);
+            this.PacientesDGV.TabIndex = 73;
+            this.PacientesDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.PacientesDGV_CellContentClick);
             // 
             // Pacientes
             // 
@@ -423,25 +427,25 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1156, 694);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.PacientesDGV);
+            this.Controls.Add(this.btnEditarPac);
+            this.Controls.Add(this.btnEliminarPac);
+            this.Controls.Add(this.btnAgregarPac);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.txtAlergiasPaciente);
+            this.Controls.Add(this.VIHPacienteCb);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtTelPaciente);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.PacDOB);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDireccionPaciente);
+            this.Controls.Add(this.GeneroPacienteCb);
+            this.Controls.Add(this.txtNombrePaciente);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Pacientes";
@@ -450,14 +454,14 @@
             this.Load += new System.EventHandler(this.Pacientes_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PacientesDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -471,9 +475,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNombrePaciente;
+        private System.Windows.Forms.ComboBox GeneroPacienteCb;
+        private System.Windows.Forms.TextBox txtDireccionPaciente;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox12;
@@ -484,17 +488,17 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker PacDOB;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtTelPaciente;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.ComboBox VIHPacienteCb;
+        private System.Windows.Forms.TextBox txtAlergiasPaciente;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnAgregarPac;
+        private System.Windows.Forms.Button btnEliminarPac;
+        private System.Windows.Forms.Button btnEditarPac;
+        private System.Windows.Forms.DataGridView PacientesDGV;
     }
 }

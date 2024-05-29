@@ -30,3 +30,16 @@ C:\Users\serme\OneDrive\Escritorio\proyectoFinal\Registro\bin\Debug\ClinicaDb_lo
 C:\Users\serme\OneDrive\Escritorio\proyectoFinal\Registro\obj\Debug\Registro.Prescripciones.resources
 C:\Users\serme\OneDrive\Escritorio\proyectoFinal\Registro\obj\Debug\Registro.Recepcionista.resources
 C:\Users\serme\OneDrive\Escritorio\proyectoFinal\Registro\obj\Debug\Registro.Iniciodesesion.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.csproj.AssemblyReference.cache
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.Doctores.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.Iniciodesesion.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.Form2.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.Laboratorio.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.Pacientes.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.Prescripciones.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.Properties.Resources.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.Recepcionista.resources
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.csproj.GenerateResource.cache
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.csproj.CoreCompileInputs.cache
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.exe
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.pdb

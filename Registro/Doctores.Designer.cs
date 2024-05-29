@@ -29,29 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Doctores));
-            this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.txtExpDoc = new System.Windows.Forms.TextBox();
+            this.DocEspecCb = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtTel = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.DOcDOB = new System.Windows.Forms.DateTimePicker();
             this.label15 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDireccionDoc = new System.Windows.Forms.TextBox();
+            this.DocGenCb = new System.Windows.Forms.ComboBox();
+            this.txtNombreDoc = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -60,9 +59,9 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtContrasenaDoc = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.DoctorsDGV = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel2.SuspendLayout();
@@ -71,42 +70,36 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DoctorsDGV)).BeginInit();
             this.SuspendLayout();
             // 
-            // button6
+            // btnEditar
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(780, 272);
-            this.button6.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(126, 38);
-            this.button6.TabIndex = 59;
-            this.button6.Text = "Editar";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnEditar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.ForeColor = System.Drawing.Color.White;
+            this.btnEditar.Location = new System.Drawing.Point(780, 272);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(126, 38);
+            this.btnEditar.TabIndex = 59;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
-            // button4
+            // btnAgregar
             // 
-            this.button4.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(436, 272);
-            this.button4.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(126, 38);
-            this.button4.TabIndex = 57;
-            this.button4.Text = "Agregar";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(240, 327);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(895, 355);
-            this.dataGridView1.TabIndex = 56;
+            this.btnAgregar.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnAgregar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
+            this.btnAgregar.Location = new System.Drawing.Point(436, 272);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(126, 38);
+            this.btnAgregar.TabIndex = 57;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // label13
             // 
@@ -119,19 +112,19 @@
             this.label13.TabIndex = 55;
             this.label13.Text = "Experiencia";
             // 
-            // textBox6
+            // txtExpDoc
             // 
-            this.textBox6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(743, 130);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(186, 26);
-            this.textBox6.TabIndex = 54;
+            this.txtExpDoc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtExpDoc.Location = new System.Drawing.Point(743, 130);
+            this.txtExpDoc.Name = "txtExpDoc";
+            this.txtExpDoc.Size = new System.Drawing.Size(186, 26);
+            this.txtExpDoc.TabIndex = 54;
             // 
-            // comboBox3
+            // DocEspecCb
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.DocEspecCb.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DocEspecCb.FormattingEnabled = true;
+            this.DocEspecCb.Items.AddRange(new object[] {
             "Urología",
             "Ginecología",
             "Cardiología",
@@ -140,11 +133,11 @@
             "Ofmatología",
             "Cirugía",
             "Dermatología"});
-            this.comboBox3.Location = new System.Drawing.Point(618, 131);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(116, 27);
-            this.comboBox3.TabIndex = 53;
-            this.comboBox3.Text = " Especialidad";
+            this.DocEspecCb.Location = new System.Drawing.Point(618, 131);
+            this.DocEspecCb.Name = "DocEspecCb";
+            this.DocEspecCb.Size = new System.Drawing.Size(116, 27);
+            this.DocEspecCb.TabIndex = 53;
+            this.DocEspecCb.Text = " Especialidad";
             // 
             // label9
             // 
@@ -157,13 +150,13 @@
             this.label9.TabIndex = 52;
             this.label9.Text = "Telefono";
             // 
-            // textBox5
+            // txtTel
             // 
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(512, 204);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(186, 26);
-            this.textBox5.TabIndex = 51;
+            this.txtTel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTel.Location = new System.Drawing.Point(512, 204);
+            this.txtTel.Name = "txtTel";
+            this.txtTel.Size = new System.Drawing.Size(186, 26);
+            this.txtTel.TabIndex = 51;
             // 
             // label8
             // 
@@ -187,13 +180,13 @@
             this.label7.TabIndex = 49;
             this.label7.Text = "Fecha de Nacimiento";
             // 
-            // dateTimePicker2
+            // DOcDOB
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(280, 204);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(186, 26);
-            this.dateTimePicker2.TabIndex = 48;
+            this.DOcDOB.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOcDOB.Location = new System.Drawing.Point(280, 204);
+            this.DOcDOB.Name = "DOcDOB";
+            this.DOcDOB.Size = new System.Drawing.Size(186, 26);
+            this.DOcDOB.TabIndex = 48;
             // 
             // label15
             // 
@@ -228,18 +221,19 @@
             this.label5.TabIndex = 30;
             this.label5.Text = "Salir";
             // 
-            // button5
+            // btnEliminar
             // 
-            this.button5.BackColor = System.Drawing.Color.Red;
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(608, 272);
-            this.button5.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(126, 38);
-            this.button5.TabIndex = 58;
-            this.button5.Text = "Eliminar";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnEliminar.BackColor = System.Drawing.Color.Red;
+            this.btnEliminar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.Location = new System.Drawing.Point(608, 272);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(126, 38);
+            this.btnEliminar.TabIndex = 58;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // label4
             // 
@@ -297,35 +291,35 @@
             this.pictureBox6.TabIndex = 44;
             this.pictureBox6.TabStop = false;
             // 
-            // textBox2
+            // txtDireccionDoc
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(949, 130);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(186, 100);
-            this.textBox2.TabIndex = 43;
+            this.txtDireccionDoc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccionDoc.Location = new System.Drawing.Point(949, 130);
+            this.txtDireccionDoc.Multiline = true;
+            this.txtDireccionDoc.Name = "txtDireccionDoc";
+            this.txtDireccionDoc.Size = new System.Drawing.Size(186, 100);
+            this.txtDireccionDoc.TabIndex = 43;
             // 
-            // comboBox1
+            // DocGenCb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.DocGenCb.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DocGenCb.FormattingEnabled = true;
+            this.DocGenCb.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.comboBox1.Location = new System.Drawing.Point(512, 130);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(89, 27);
-            this.comboBox1.TabIndex = 42;
-            this.comboBox1.Text = "Genero";
+            this.DocGenCb.Location = new System.Drawing.Point(512, 130);
+            this.DocGenCb.Name = "DocGenCb";
+            this.DocGenCb.Size = new System.Drawing.Size(89, 27);
+            this.DocGenCb.TabIndex = 42;
+            this.DocGenCb.Text = "Genero";
             // 
-            // textBox1
+            // txtNombreDoc
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(280, 132);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 26);
-            this.textBox1.TabIndex = 41;
+            this.txtNombreDoc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreDoc.Location = new System.Drawing.Point(280, 132);
+            this.txtNombreDoc.Name = "txtNombreDoc";
+            this.txtNombreDoc.Size = new System.Drawing.Size(186, 26);
+            this.txtNombreDoc.TabIndex = 41;
             // 
             // panel2
             // 
@@ -423,13 +417,13 @@
             this.label12.TabIndex = 45;
             this.label12.Text = "Nombre del Doctor";
             // 
-            // textBox3
+            // txtContrasenaDoc
             // 
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(743, 204);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(186, 26);
-            this.textBox3.TabIndex = 60;
+            this.txtContrasenaDoc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContrasenaDoc.Location = new System.Drawing.Point(743, 204);
+            this.txtContrasenaDoc.Name = "txtContrasenaDoc";
+            this.txtContrasenaDoc.Size = new System.Drawing.Size(186, 26);
+            this.txtContrasenaDoc.TabIndex = 60;
             // 
             // label10
             // 
@@ -442,32 +436,42 @@
             this.label10.TabIndex = 61;
             this.label10.Text = "Contraseña";
             // 
+            // DoctorsDGV
+            // 
+            this.DoctorsDGV.BackgroundColor = System.Drawing.Color.White;
+            this.DoctorsDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DoctorsDGV.Location = new System.Drawing.Point(240, 317);
+            this.DoctorsDGV.Name = "DoctorsDGV";
+            this.DoctorsDGV.Size = new System.Drawing.Size(895, 355);
+            this.DoctorsDGV.TabIndex = 73;
+            this.DoctorsDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DoctorsDGV_CellContentClick);
+            // 
             // Doctores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1156, 694);
+            this.Controls.Add(this.DoctorsDGV);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.txtContrasenaDoc);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.txtExpDoc);
+            this.Controls.Add(this.DocEspecCb);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtTel);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.DOcDOB);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDireccionDoc);
+            this.Controls.Add(this.DocGenCb);
+            this.Controls.Add(this.txtNombreDoc);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label12);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -475,7 +479,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Doctores";
             this.Load += new System.EventHandler(this.Doctores_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -485,6 +488,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DoctorsDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -492,29 +496,28 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.TextBox txtExpDoc;
+        private System.Windows.Forms.ComboBox DocEspecCb;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtTel;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker DOcDOB;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDireccionDoc;
+        private System.Windows.Forms.ComboBox DocGenCb;
+        private System.Windows.Forms.TextBox txtNombreDoc;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -523,7 +526,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtContrasenaDoc;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.DataGridView DoctorsDGV;
     }
 }
