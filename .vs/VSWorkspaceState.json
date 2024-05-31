@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Registro"
   ],
-  "SelectedNode": "\\Registro.sln",
+  "SelectedNode": "\\Registro\\Prescripciones.Designer.cs",
   "PreviewInSolutionExplorer": false
 }
