@@ -43,3 +43,8 @@ C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Re
 C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.csproj.CoreCompileInputs.cache
 C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.exe
 C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\obj\Debug\Registro.pdb
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\bin\Debug\ClinicaDb.mdf
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\bin\Debug\ClinicaDb_log.ldf
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\bin\Debug\Registro.exe.config
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\bin\Debug\Registro.exe
+C:\Users\CHRIS\Desktop\Proyectofinal-Progra1\proyectoFinal\Registro\bin\Debug\Registro.pdb
