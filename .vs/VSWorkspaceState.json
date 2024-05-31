@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Registro",
+    "\\SistemaDeRegistrosMedicos"
   ],
-  "SelectedNode": "\\Registro.sln",
+  "SelectedNode": "\\Registro\\Recepcionista.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -62,7 +62,7 @@ namespace Registro
             sda.Fill(ds);
           
             //CORREGIR ESTE ERROR EN LA TABLA
-             //RecepcionistaDGV.DataSource ds.TABLES[0];
+            dataGridView1.DataSource = ds.Tables[0];
             Con.Close();
             DisplayRec();
         }
