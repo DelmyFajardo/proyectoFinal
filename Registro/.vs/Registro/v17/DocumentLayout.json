@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\chris\\desktop\\proyectofinal-progra1\\proyectofinal\\registro\\recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\chris\\desktop\\proyectofinal-progra1\\proyectofinal\\registro\\recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -61,32 +61,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Recepcionista.cs",
-              "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Recepcionista.cs",
-              "RelativeDocumentMoniker": "Recepcionista.cs",
-              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Recepcionista.cs",
-              "RelativeToolTip": "Recepcionista.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T01:10:32.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pacientes.cs",
-              "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Pacientes.cs",
-              "RelativeDocumentMoniker": "Pacientes.cs",
-              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Pacientes.cs",
-              "RelativeToolTip": "Pacientes.cs",
-              "ViewState": "AQIAAIkAAADAmZmZmZkjwFAAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:07:08.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -103,52 +77,27 @@
               "Title": "Laboratorio.cs",
               "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Laboratorio.cs",
               "RelativeDocumentMoniker": "Laboratorio.cs",
-              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Laboratorio.cs",
-              "RelativeToolTip": "Laboratorio.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAASwBcAAAAMAAAA",
+              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Laboratorio.cs*",
+              "RelativeToolTip": "Laboratorio.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T06:29:22.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Prescripciones.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Prescripciones.cs",
               "RelativeDocumentMoniker": "Prescripciones.cs",
               "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Prescripciones.cs [Dise\u00F1o]",
               "RelativeToolTip": "Prescripciones.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:10:06.109Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-30T23:10:06.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Laboratorio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Laboratorio.cs",
-              "RelativeDocumentMoniker": "Laboratorio.cs",
-              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Laboratorio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Laboratorio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:53:24.728Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Iniciodesesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Iniciodesesion.cs",
-              "RelativeDocumentMoniker": "Iniciodesesion.cs",
-              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Iniciodesesion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Iniciodesesion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:11:35.841Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Doctores.cs",
               "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Doctores.cs",
               "RelativeDocumentMoniker": "Doctores.cs",
@@ -161,6 +110,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pacientes.cs",
+              "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Pacientes.cs",
+              "RelativeDocumentMoniker": "Pacientes.cs",
+              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Pacientes.cs",
+              "RelativeToolTip": "Pacientes.cs",
+              "ViewState": "AQIAAIkAAADAmZmZmZkjwFAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:07:08.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Recepcionista.cs",
+              "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Recepcionista.cs",
+              "RelativeDocumentMoniker": "Recepcionista.cs",
+              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Recepcionista.cs",
+              "RelativeToolTip": "Recepcionista.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T01:10:32.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Laboratorio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Laboratorio.cs",
+              "RelativeDocumentMoniker": "Laboratorio.cs",
+              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Laboratorio.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Laboratorio.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:53:24.728Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Iniciodesesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Iniciodesesion.cs",
+              "RelativeDocumentMoniker": "Iniciodesesion.cs",
+              "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Iniciodesesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Iniciodesesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T23:11:35.841Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Form2.cs",
@@ -168,8 +165,7 @@
               "ToolTip": "C:\\Users\\CHRIS\\Desktop\\Proyectofinal-Progra1\\proyectoFinal\\Registro\\Form2.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:20:53.479Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-12T23:20:53.479Z"
             },
             {
               "$type": "Document",
@@ -181,8 +177,7 @@
               "RelativeToolTip": "Form2.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAcwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:21:11.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T23:21:11.762Z"
             },
             {
               "$type": "Document",
