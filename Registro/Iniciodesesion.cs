@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;  
@@ -46,5 +48,104 @@ namespace Registro
         {
 
         }
+
+        private void RolCb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            RolCb.SelectedIndex = 0;
+            UsuarioTb.Text = "";
+            ContrasenaTb.Text = " ";
+        }
+
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\serme\OneDrive\Documentos\ClinicaDb.mdf;Integrated Security=True;Connect Timeout=30");
+        public static string Role;
+
+        private void AccesoBtn_Click(object sender, EventArgs e)
+        {
+            if (RolCb.SelectedIndex == -1)
+            {
+                MessageBox.Show("Selecciona tu posicion");
+            }
+            else if (RolCb.SelectedIndex == 0)
+            {
+                if (UsuarioTb.Text == "" || ContrasenaTb.Text == "")
+                {
+                    MessageBox.Show("Ingrese su Nombre y contraseña");
+                }
+                else if (UsuarioTb.Text == "Admin" && ContrasenaTb.Text == "Contrasena")
+                {
+                    Role = "Admin";   
+                    Pacientes obj = new Pacientes();
+                    obj.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Los datos que ingreso son incorrectos.");
+                }
+            }
+            else if (RolCb.SelectedIndex == 1)
+            {
+                if (UsuarioTb.Text == "" || ContrasenaTb.Text == "")
+                {
+                    MessageBox.Show("Ingrese su nombre y contraseña");
+                }
+                else
+                {
+                    Con.Open();
+                    SqlDataAdapter sda = new SqlDataAdapter("select count (*) from DoctorTbl where NombreDoctor='" + UsuarioTb.Text + "' and Docpass='" + ContrasenaTb.Text + "'", Con);
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    if (dt.Rows[0][0].ToString() == "1")
+                    {
+                        Role = "Doctor";
+                        Prescripciones obj = new Prescripciones();
+                        obj.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Doctor no encontrado");
+                    }
+
+                    Con.Close();
+                }
+            }
+            else
+            {
+                if (UsuarioTb.Text == "" || ContrasenaTb.Text == "")
+                {
+                    MessageBox.Show("Ingrese su nombre y contraseña");
+                }
+                else
+                {
+                    Con.Open();
+                    SqlDataAdapter sda = new SqlDataAdapter("select count (*) from RecepcionistaTbl where RNombrer='" + UsuarioTb.Text + "' and Recepass='" + ContrasenaTb.Text + "'", Con);
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    if (dt.Rows[0][0].ToString() == "1")
+                    {
+                        Role = "Recepcionista";
+
+                        Form2 obj = new Form2();
+                        obj.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Recepcionista no encontrado");
+                    }
+
+                    Con.Close();
+                }
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
+
 }
+
+

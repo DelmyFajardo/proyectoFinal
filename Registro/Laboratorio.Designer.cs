@@ -181,6 +181,7 @@
             this.label11.Size = new System.Drawing.Size(49, 22);
             this.label11.TabIndex = 25;
             this.label11.Text = "Salir";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // pictureBox1
             // 

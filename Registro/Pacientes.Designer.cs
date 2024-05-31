@@ -101,6 +101,7 @@
             this.label5.Size = new System.Drawing.Size(49, 22);
             this.label5.TabIndex = 30;
             this.label5.Text = "Salir";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -142,9 +143,10 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(66, 136);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 22);
+            this.label1.Size = new System.Drawing.Size(65, 22);
             this.label1.TabIndex = 26;
-            this.label1.Text = "Pacientes";
+            this.label1.Text = "Form2";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox12
             // 
@@ -253,6 +255,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 24;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // label12
             // 

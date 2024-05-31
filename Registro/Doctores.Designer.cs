@@ -220,6 +220,7 @@
             this.label5.Size = new System.Drawing.Size(49, 22);
             this.label5.TabIndex = 30;
             this.label5.Text = "Salir";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // btnEliminar
             // 
@@ -245,6 +246,7 @@
             this.label4.Size = new System.Drawing.Size(124, 22);
             this.label4.TabIndex = 29;
             this.label4.Text = "Recepcionista";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label2
             // 
@@ -256,6 +258,7 @@
             this.label2.Size = new System.Drawing.Size(84, 22);
             this.label2.TabIndex = 27;
             this.label2.Text = "Doctores";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -290,6 +293,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 44;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // txtDireccionDoc
             // 
@@ -350,6 +354,7 @@
             this.label3.Size = new System.Drawing.Size(109, 22);
             this.label3.TabIndex = 28;
             this.label3.Text = "Laboratorio";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox1
             // 

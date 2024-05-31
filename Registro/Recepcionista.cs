@@ -159,6 +159,11 @@ namespace Registro
         {
             Application.Exit();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     //int Key = 0;

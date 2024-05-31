@@ -30,6 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.RecepcionistaLbl = new System.Windows.Forms.Label();
+            this.laboratoriolbl = new System.Windows.Forms.Label();
+            this.DoctorLbl = new System.Windows.Forms.Label();
+            this.PacientesLbl = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -37,31 +43,26 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.DocNumlbl = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.LabTestlbl = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.PatNumlbl = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.VIHlbl = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -77,7 +78,6 @@
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,10 +85,10 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.LightGray;
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.RecepcionistaLbl);
+            this.panel1.Controls.Add(this.laboratoriolbl);
+            this.panel1.Controls.Add(this.DoctorLbl);
+            this.panel1.Controls.Add(this.PacientesLbl);
             this.panel1.Controls.Add(this.pictureBox12);
             this.panel1.Controls.Add(this.pictureBox11);
             this.panel1.Controls.Add(this.pictureBox10);
@@ -99,6 +99,78 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(204, 552);
             this.panel1.TabIndex = 0;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(56, 503);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(49, 22);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "Salir";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // RecepcionistaLbl
+            // 
+            this.RecepcionistaLbl.AutoSize = true;
+            this.RecepcionistaLbl.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RecepcionistaLbl.ForeColor = System.Drawing.Color.Black;
+            this.RecepcionistaLbl.Location = new System.Drawing.Point(56, 298);
+            this.RecepcionistaLbl.Name = "RecepcionistaLbl";
+            this.RecepcionistaLbl.Size = new System.Drawing.Size(124, 22);
+            this.RecepcionistaLbl.TabIndex = 24;
+            this.RecepcionistaLbl.Text = "Recepcionista";
+            this.RecepcionistaLbl.Click += new System.EventHandler(this.RecepcionistaLbl_Click);
+            // 
+            // laboratoriolbl
+            // 
+            this.laboratoriolbl.AutoSize = true;
+            this.laboratoriolbl.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.laboratoriolbl.ForeColor = System.Drawing.Color.Black;
+            this.laboratoriolbl.Location = new System.Drawing.Point(56, 235);
+            this.laboratoriolbl.Name = "laboratoriolbl";
+            this.laboratoriolbl.Size = new System.Drawing.Size(109, 22);
+            this.laboratoriolbl.TabIndex = 23;
+            this.laboratoriolbl.Text = "Laboratorio";
+            this.laboratoriolbl.Click += new System.EventHandler(this.laboratoriolbl_Click);
+            // 
+            // DoctorLbl
+            // 
+            this.DoctorLbl.AutoSize = true;
+            this.DoctorLbl.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DoctorLbl.ForeColor = System.Drawing.Color.Black;
+            this.DoctorLbl.Location = new System.Drawing.Point(56, 175);
+            this.DoctorLbl.Name = "DoctorLbl";
+            this.DoctorLbl.Size = new System.Drawing.Size(67, 22);
+            this.DoctorLbl.TabIndex = 22;
+            this.DoctorLbl.Text = "Doctor";
+            this.DoctorLbl.Click += new System.EventHandler(this.DoctorLbl_Click);
+            // 
+            // PacientesLbl
+            // 
+            this.PacientesLbl.AutoSize = true;
+            this.PacientesLbl.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PacientesLbl.ForeColor = System.Drawing.Color.Black;
+            this.PacientesLbl.Location = new System.Drawing.Point(56, 114);
+            this.PacientesLbl.Name = "PacientesLbl";
+            this.PacientesLbl.Size = new System.Drawing.Size(88, 22);
+            this.PacientesLbl.TabIndex = 21;
+            this.PacientesLbl.Text = "Pacientes";
+            this.PacientesLbl.Click += new System.EventHandler(this.PacientesLbl_Click);
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(77, 29);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(46, 43);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 20;
+            this.pictureBox12.TabStop = false;
             // 
             // pictureBox11
             // 
@@ -169,7 +241,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.DocNumlbl);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.ForeColor = System.Drawing.SystemColors.ButtonShadow;
@@ -177,6 +249,28 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(261, 85);
             this.panel4.TabIndex = 14;
+            // 
+            // DocNumlbl
+            // 
+            this.DocNumlbl.AutoSize = true;
+            this.DocNumlbl.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DocNumlbl.ForeColor = System.Drawing.Color.Black;
+            this.DocNumlbl.Location = new System.Drawing.Point(146, 50);
+            this.DocNumlbl.Name = "DocNumlbl";
+            this.DocNumlbl.Size = new System.Drawing.Size(88, 22);
+            this.DocNumlbl.TabIndex = 20;
+            this.DocNumlbl.Text = "Pacientes";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(85, 15);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 22);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Pacientes";
             // 
             // pictureBox4
             // 
@@ -192,7 +286,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel5.Controls.Add(this.label7);
+            this.panel5.Controls.Add(this.LabTestlbl);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.pictureBox5);
             this.panel5.ForeColor = System.Drawing.SystemColors.ButtonShadow;
@@ -200,6 +294,28 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(267, 85);
             this.panel5.TabIndex = 14;
+            // 
+            // LabTestlbl
+            // 
+            this.LabTestlbl.AutoSize = true;
+            this.LabTestlbl.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabTestlbl.ForeColor = System.Drawing.Color.Black;
+            this.LabTestlbl.Location = new System.Drawing.Point(152, 50);
+            this.LabTestlbl.Name = "LabTestlbl";
+            this.LabTestlbl.Size = new System.Drawing.Size(88, 22);
+            this.LabTestlbl.TabIndex = 21;
+            this.LabTestlbl.Text = "Pacientes";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Blue;
+            this.label6.Location = new System.Drawing.Point(93, 15);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(109, 22);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Laboratorio";
             // 
             // pictureBox5
             // 
@@ -215,7 +331,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.PatNumlbl);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.ForeColor = System.Drawing.SystemColors.ButtonShadow;
@@ -223,6 +339,28 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(251, 85);
             this.panel3.TabIndex = 0;
+            // 
+            // PatNumlbl
+            // 
+            this.PatNumlbl.AutoSize = true;
+            this.PatNumlbl.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PatNumlbl.ForeColor = System.Drawing.Color.Black;
+            this.PatNumlbl.Location = new System.Drawing.Point(144, 50);
+            this.PatNumlbl.Name = "PatNumlbl";
+            this.PatNumlbl.Size = new System.Drawing.Size(88, 22);
+            this.PatNumlbl.TabIndex = 19;
+            this.PatNumlbl.Text = "Pacientes";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(89, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 22);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Doctores";
             // 
             // pictureBox3
             // 
@@ -238,7 +376,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel6.Controls.Add(this.label8);
+            this.panel6.Controls.Add(this.VIHlbl);
             this.panel6.Controls.Add(this.label2);
             this.panel6.Controls.Add(this.pictureBox6);
             this.panel6.ForeColor = System.Drawing.SystemColors.ButtonShadow;
@@ -246,6 +384,29 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(278, 92);
             this.panel6.TabIndex = 15;
+            // 
+            // VIHlbl
+            // 
+            this.VIHlbl.AutoSize = true;
+            this.VIHlbl.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIHlbl.ForeColor = System.Drawing.Color.Black;
+            this.VIHlbl.Location = new System.Drawing.Point(148, 56);
+            this.VIHlbl.Name = "VIHlbl";
+            this.VIHlbl.Size = new System.Drawing.Size(88, 22);
+            this.VIHlbl.TabIndex = 21;
+            this.VIHlbl.Text = "Pacientes";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Location = new System.Drawing.Point(111, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(127, 22);
+            this.label2.TabIndex = 21;
+            this.label2.Text = "Pacientes VIH";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox6
             // 
@@ -268,18 +429,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(77, 29);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(46, 43);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 20;
-            this.pictureBox12.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label15
             // 
@@ -301,150 +451,6 @@
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox13.TabIndex = 17;
             this.pictureBox13.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(89, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 22);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Doctores";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(144, 50);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 22);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Pacientes";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(85, 15);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 22);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Pacientes";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(146, 50);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 22);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Pacientes";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(93, 15);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(109, 22);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "Laboratorio";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(152, 50);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(88, 22);
-            this.label7.TabIndex = 21;
-            this.label7.Text = "Pacientes";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(111, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 22);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "Pacientes VIH";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(148, 56);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 22);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Pacientes";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(56, 114);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 22);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "Pacientes";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(56, 175);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 22);
-            this.label10.TabIndex = 22;
-            this.label10.Text = "Doctor";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(56, 235);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(109, 22);
-            this.label14.TabIndex = 23;
-            this.label14.Text = "Laboratorio";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(56, 298);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(124, 22);
-            this.label12.TabIndex = 24;
-            this.label12.Text = "Recepcionista";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(56, 503);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(49, 22);
-            this.label11.TabIndex = 25;
-            this.label11.Text = "Salir";
             // 
             // Form2
             // 
@@ -470,6 +476,7 @@
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -489,7 +496,6 @@
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -517,18 +523,18 @@
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label DocNumlbl;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label LabTestlbl;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label PatNumlbl;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label VIHlbl;
+        private System.Windows.Forms.Label PacientesLbl;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label RecepcionistaLbl;
+        private System.Windows.Forms.Label laboratoriolbl;
+        private System.Windows.Forms.Label DoctorLbl;
     }
 }

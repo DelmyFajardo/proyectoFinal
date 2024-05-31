@@ -157,5 +157,36 @@ namespace Registro
                     MessageBox.Show(Ex.Message);
                 }
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Laboratorio obj = new Laboratorio();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Recepcionista obj = new Recepcionista();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Iniciodesesion obj = new Iniciodesesion();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

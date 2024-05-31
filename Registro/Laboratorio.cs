@@ -74,7 +74,7 @@ namespace Registro
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Application.Exit();
         }
 
         private void LabDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -142,6 +142,13 @@ namespace Registro
                 {
                     MessageBox.Show(Ex.Message);
                 }
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Iniciodesesion obj = new Iniciodesesion();
+            obj.Show();
+            this.Hide();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Registro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Laboratorio());
+            Application.Run(new Iniciodesesion());
         }
     }
 }

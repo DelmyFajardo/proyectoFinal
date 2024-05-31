@@ -33,13 +33,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.RolCb = new System.Windows.Forms.ComboBox();
+            this.UsuarioTb = new System.Windows.Forms.TextBox();
+            this.AccesoBtn = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.ContrasenaTb = new System.Windows.Forms.TextBox();
+            this.ReiniciarLb = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -81,6 +81,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -95,39 +96,41 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // comboBox1
+            // RolCb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.RolCb.FormattingEnabled = true;
+            this.RolCb.Items.AddRange(new object[] {
             "Admin",
             "Doctor",
             "Recepcionista"});
-            this.comboBox1.Location = new System.Drawing.Point(142, 249);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(232, 27);
-            this.comboBox1.TabIndex = 3;
+            this.RolCb.Location = new System.Drawing.Point(142, 249);
+            this.RolCb.Margin = new System.Windows.Forms.Padding(4);
+            this.RolCb.Name = "RolCb";
+            this.RolCb.Size = new System.Drawing.Size(232, 27);
+            this.RolCb.TabIndex = 3;
+            this.RolCb.SelectedIndexChanged += new System.EventHandler(this.RolCb_SelectedIndexChanged);
             // 
-            // textBox1
+            // UsuarioTb
             // 
-            this.textBox1.Location = new System.Drawing.Point(142, 325);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(232, 26);
-            this.textBox1.TabIndex = 4;
+            this.UsuarioTb.Location = new System.Drawing.Point(142, 325);
+            this.UsuarioTb.Margin = new System.Windows.Forms.Padding(4);
+            this.UsuarioTb.Name = "UsuarioTb";
+            this.UsuarioTb.Size = new System.Drawing.Size(232, 26);
+            this.UsuarioTb.TabIndex = 4;
             // 
-            // button1
+            // AccesoBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(201, 465);
-            this.button1.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 38);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Acceso";
-            this.button1.UseVisualStyleBackColor = false;
+            this.AccesoBtn.BackColor = System.Drawing.Color.MidnightBlue;
+            this.AccesoBtn.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccesoBtn.ForeColor = System.Drawing.Color.White;
+            this.AccesoBtn.Location = new System.Drawing.Point(201, 465);
+            this.AccesoBtn.Margin = new System.Windows.Forms.Padding(8, 4, 4, 4);
+            this.AccesoBtn.Name = "AccesoBtn";
+            this.AccesoBtn.Size = new System.Drawing.Size(126, 38);
+            this.AccesoBtn.TabIndex = 7;
+            this.AccesoBtn.Text = "Acceso";
+            this.AccesoBtn.UseVisualStyleBackColor = false;
+            this.AccesoBtn.Click += new System.EventHandler(this.AccesoBtn_Click);
             // 
             // label6
             // 
@@ -151,25 +154,25 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Contraseña";
             // 
-            // textBox2
+            // ContrasenaTb
             // 
-            this.textBox2.Location = new System.Drawing.Point(142, 398);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(232, 26);
-            this.textBox2.TabIndex = 12;
+            this.ContrasenaTb.Location = new System.Drawing.Point(142, 398);
+            this.ContrasenaTb.Margin = new System.Windows.Forms.Padding(4);
+            this.ContrasenaTb.Name = "ContrasenaTb";
+            this.ContrasenaTb.Size = new System.Drawing.Size(232, 26);
+            this.ContrasenaTb.TabIndex = 12;
             // 
-            // label1
+            // ReiniciarLb
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(229, 519);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 19);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Reiniciar";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.ReiniciarLb.AutoSize = true;
+            this.ReiniciarLb.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReiniciarLb.ForeColor = System.Drawing.Color.Black;
+            this.ReiniciarLb.Location = new System.Drawing.Point(229, 519);
+            this.ReiniciarLb.Name = "ReiniciarLb";
+            this.ReiniciarLb.Size = new System.Drawing.Size(70, 19);
+            this.ReiniciarLb.TabIndex = 13;
+            this.ReiniciarLb.Text = "Reiniciar";
+            this.ReiniciarLb.Click += new System.EventHandler(this.label1_Click);
             // 
             // Iniciodesesion
             // 
@@ -178,13 +181,13 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(528, 772);
             this.ControlBox = false;
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.ReiniciarLb);
+            this.Controls.Add(this.ContrasenaTb);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.AccesoBtn);
+            this.Controls.Add(this.UsuarioTb);
+            this.Controls.Add(this.RolCb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -207,15 +210,15 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox RolCb;
+        private System.Windows.Forms.TextBox UsuarioTb;
+        private System.Windows.Forms.Button AccesoBtn;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox ContrasenaTb;
+        private System.Windows.Forms.Label ReiniciarLb;
     }
 }
 
