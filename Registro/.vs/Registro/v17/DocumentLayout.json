@@ -3,64 +3,79 @@
   "WorkspaceRootPath": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELMY_DESKTOP_COPIA_PROYECTO_PROGRA_PROYECTOFINAL_REGISTRO_CLINICADB.MDF/True/SqlTable/dbo.DoctorTbl.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\recepcionistadgv\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:recepcionistadgv\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\clinicadbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:clinicadbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|c:\\users\\delmy\\desktop\\copia_proyecto_progra\\proyectofinal\\registro\\recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:prescripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48B3376-8A8D-4C62-8FD0-3F8D3713289A}|Registro.csproj|solutionrelative:doctores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,68 +85,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pacientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Pacientes.cs",
-              "RelativeDocumentMoniker": "Pacientes.cs",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Pacientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pacientes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T07:34:30.763Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Recepcionista.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Recepcionista.cs",
-              "RelativeDocumentMoniker": "Recepcionista.cs",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Recepcionista.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Recepcionista.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T07:08:26.997Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Iniciodesesion.cs",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Iniciodesesion.cs",
-              "RelativeDocumentMoniker": "Iniciodesesion.cs",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Iniciodesesion.cs",
-              "RelativeToolTip": "Iniciodesesion.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAcwJAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T05:47:10.993Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.DoctorTbl [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELMY_DESKTOP_COPIA_PROYECTO_PROGRA_PROYECTOFINAL_REGISTRO_CLINICADB.MDF/True/SqlTable/dbo.DoctorTbl.sql",
+              "ToolTip": "dbo.DoctorTbl [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-31T23:55:52.806Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Iniciodesesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Iniciodesesion.cs",
-              "RelativeDocumentMoniker": "Iniciodesesion.cs",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Iniciodesesion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Iniciodesesion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T05:43:11.415Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Prescripciones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs",
-              "RelativeDocumentMoniker": "Prescripciones.cs",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Prescripciones.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:35:57.842Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Bookmark",
@@ -143,7 +107,119 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\RecepcionistaDGV\\DataSource.cs",
+              "RelativeDocumentMoniker": "RecepcionistaDGV\\DataSource.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\RecepcionistaDGV\\DataSource.cs",
+              "RelativeToolTip": "RecepcionistaDGV\\DataSource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T23:11:24.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-31T23:11:10.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClinicaDbDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\ClinicaDbDataSet.xsd",
+              "RelativeDocumentMoniker": "ClinicaDbDataSet.xsd",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\ClinicaDbDataSet.xsd",
+              "RelativeToolTip": "ClinicaDbDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-05-31T23:09:45.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Iniciodesesion.cs",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Iniciodesesion.cs",
+              "RelativeDocumentMoniker": "Iniciodesesion.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Iniciodesesion.cs",
+              "RelativeToolTip": "Iniciodesesion.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwEkAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T05:47:10.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Pacientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Pacientes.cs",
+              "RelativeDocumentMoniker": "Pacientes.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Pacientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pacientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:34:30.763Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Recepcionista.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Recepcionista.cs",
+              "RelativeDocumentMoniker": "Recepcionista.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Recepcionista.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Recepcionista.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:08:26.997Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Iniciodesesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Iniciodesesion.cs",
+              "RelativeDocumentMoniker": "Iniciodesesion.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Iniciodesesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Iniciodesesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T05:43:11.415Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Prescripciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs",
+              "RelativeDocumentMoniker": "Prescripciones.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Prescripciones.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T23:35:57.842Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwE8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:21:11.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Doctores.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Doctores.cs",
               "RelativeDocumentMoniker": "Doctores.cs",
@@ -155,20 +231,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Prescripciones.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs",
               "RelativeDocumentMoniker": "Prescripciones.cs",
               "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs",
               "RelativeToolTip": "Prescripciones.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAcwJkAAAAMAAAA",
+              "ViewState": "AQIAAJcAAAAAAAAAAAA4wJMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T23:26:14.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Laboratorio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Laboratorio.cs",
               "RelativeDocumentMoniker": "Laboratorio.cs",
@@ -180,59 +256,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Laboratorio.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Laboratorio.cs",
               "RelativeDocumentMoniker": "Laboratorio.cs",
               "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Laboratorio.cs",
               "RelativeToolTip": "Laboratorio.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAmwJYAAAAYAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAIwJYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T06:29:22.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Recepcionista.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Recepcionista.cs",
               "RelativeDocumentMoniker": "Recepcionista.cs",
               "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Recepcionista.cs",
               "RelativeToolTip": "Recepcionista.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAIwKQAAAAAAAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAApwKkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T01:10:32.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Pacientes.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Pacientes.cs",
               "RelativeDocumentMoniker": "Pacientes.cs",
               "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Pacientes.cs",
               "RelativeToolTip": "Pacientes.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAIwLoAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T01:07:08.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T01:09:29.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "Doctores.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Doctores.cs",
               "RelativeDocumentMoniker": "Doctores.cs",
@@ -245,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -254,19 +330,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T23:20:53.479Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.cs",
-              "RelativeToolTip": "Form2.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAIwFgAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:21:11.762Z",
-              "EditorCaption": ""
             }
           ]
         }

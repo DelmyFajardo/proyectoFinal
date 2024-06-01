@@ -124,7 +124,7 @@ namespace Registro
         private void GetPacienteId()
         {
             Con.Open();
-            SqlCommand cmd = new SqlCommand("Select  PacienteId from PacientesTbl", Con);
+            SqlCommand cmd = new SqlCommand("Select  PacienteId from PacienteTbl", Con);
             SqlDataReader rdr;
             rdr = cmd.ExecuteReader();
             DataTable dt = new DataTable();
@@ -138,7 +138,7 @@ namespace Registro
         private void GetTest()
         {
             Con.Open();
-            SqlCommand cmd = new SqlCommand("Select  TestNum from TestTbll", Con);
+            SqlCommand cmd = new SqlCommand("Select  TestNum from TestTbl", Con);
             SqlDataReader rdr;
             rdr = cmd.ExecuteReader();
             DataTable dt = new DataTable();

@@ -47,7 +47,7 @@ namespace Registro
         private void ContarPacientes()
         {
             Con.Open();
-            SqlDataAdapter sda = new SqlDataAdapter("select count (*) from PacienteTbl ", Con);
+            SqlDataAdapter sda = new SqlDataAdapter("select Count (*) from PacienteTbl ", Con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             PatNumlbl.Text = dt.Rows[0][0].ToString();
@@ -57,7 +57,7 @@ namespace Registro
         {
             string Status = "Positivo";
             Con.Open();
-            SqlDataAdapter sda = new SqlDataAdapter("select count (*) from PacienteTbl where  PacienteHIV='"+Status +'"', Con);
+            SqlDataAdapter sda = new SqlDataAdapter("select Count (*) from PacienteTbl where  PacienteHIV='"+Status +'"', Con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             VIHlbl.Text = dt.Rows[0][0].ToString();
@@ -77,7 +77,7 @@ namespace Registro
         private void ContarPrueba()
         {
             Con.Open();
-            SqlDataAdapter sda = new SqlDataAdapter("select count (*) from TestTbl ", Con);
+            SqlDataAdapter sda = new SqlDataAdapter("select Count (*) from TestTbl ", Con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             LabTestlbl.Text = dt.Rows[0][0].ToString();

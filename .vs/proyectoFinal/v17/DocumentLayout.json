@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Registro\\Prescripciones.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Recepcionista.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Registro\\Recepcionista.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Registro\\Prescripciones.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Registro\\Prescripciones.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Recepcionista.Designer.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Recepcionista.Designer.cs",
               "RelativeDocumentMoniker": "Registro\\Recepcionista.Designer.cs",
@@ -58,36 +58,11 @@
               "RelativeToolTip": "Registro\\Recepcionista.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:33:55.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Doctores.resx",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Doctores.resx",
-              "RelativeDocumentMoniker": "Registro\\Doctores.resx",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Doctores.resx",
-              "RelativeToolTip": "Registro\\Doctores.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-30T23:33:23.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T23:33:55.15Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Form2.resx",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.resx",
-              "RelativeDocumentMoniker": "Registro\\Form2.resx",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.resx",
-              "RelativeToolTip": "Registro\\Form2.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-30T23:33:03.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.cs",
               "RelativeDocumentMoniker": "Registro\\Form2.cs",
@@ -95,12 +70,11 @@
               "RelativeToolTip": "Registro\\Form2.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:32:58.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T23:32:58.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "Registro\\Form2.Designer.cs",
@@ -108,12 +82,11 @@
               "RelativeToolTip": "Registro\\Form2.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:32:53.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T23:32:53.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Program.cs",
               "RelativeDocumentMoniker": "Registro\\Program.cs",
@@ -121,12 +94,35 @@
               "RelativeToolTip": "Registro\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:32:44.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T23:32:44.152Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Prescripciones.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.Designer.cs",
+              "RelativeDocumentMoniker": "Registro\\Prescripciones.Designer.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.Designer.cs",
+              "RelativeToolTip": "Registro\\Prescripciones.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T23:31:51.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Prescripciones.cs",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs",
+              "RelativeDocumentMoniker": "Registro\\Prescripciones.cs",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs",
+              "RelativeToolTip": "Registro\\Prescripciones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T23:31:11.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Prescripciones.resx",
               "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.resx",
               "RelativeDocumentMoniker": "Registro\\Prescripciones.resx",
@@ -138,29 +134,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Prescripciones.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.Designer.cs",
-              "RelativeDocumentMoniker": "Registro\\Prescripciones.Designer.cs",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.Designer.cs",
-              "RelativeToolTip": "Registro\\Prescripciones.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:31:51.128Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "Doctores.resx",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Doctores.resx",
+              "RelativeDocumentMoniker": "Registro\\Doctores.resx",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Doctores.resx",
+              "RelativeToolTip": "Registro\\Doctores.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-30T23:33:23.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Prescripciones.cs",
-              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs",
-              "RelativeDocumentMoniker": "Registro\\Prescripciones.cs",
-              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Prescripciones.cs",
-              "RelativeToolTip": "Registro\\Prescripciones.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:31:11.986Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "Form2.resx",
+              "DocumentMoniker": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.resx",
+              "RelativeDocumentMoniker": "Registro\\Form2.resx",
+              "ToolTip": "C:\\Users\\delmy\\Desktop\\copia_proyecto_progra\\proyectoFinal\\Registro\\Form2.resx",
+              "RelativeToolTip": "Registro\\Form2.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-30T23:33:03.431Z"
             },
             {
               "$type": "Bookmark",

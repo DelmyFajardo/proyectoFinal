@@ -71,9 +71,9 @@ namespace Registro
                 {
                     MessageBox.Show("Ingrese su Nombre y contraseña");
                 }
-                else if (UsuarioTb.Text == "Admin" && ContrasenaTb.Text == "Contrasena")
+                else if (UsuarioTb.Text == "Admin" && ContrasenaTb.Text == "Pass")
                 {
-                    Role = "Admin";   
+                    Role = "Admin";
                     Pacientes obj = new Pacientes();
                     obj.Show();
                     this.Hide();
@@ -87,12 +87,12 @@ namespace Registro
             {
                 if (UsuarioTb.Text == "" || ContrasenaTb.Text == "")
                 {
-                    MessageBox.Show("Ingrese su nombre y contraseña");
+                    MessageBox.Show("Ingrese su Nombre y contraseña");
                 }
-                else
+                else if (UsuarioTb.Text == "Doctor" && ContrasenaTb.Text == "Pass")
                 {
                     Con.Open();
-                    SqlDataAdapter sda = new SqlDataAdapter("select count (*) from DoctorTbl where NombreDoctor='" + UsuarioTb.Text + "' and Docpass='" + ContrasenaTb.Text + "'", Con);
+                    SqlDataAdapter sda = new SqlDataAdapter("select Count (*) from DoctorTbl where DocNombre='" + UsuarioTb.Text + "' and DocContraseña='" + ContrasenaTb.Text + "'", Con);
                     DataTable dt = new DataTable();
                     sda.Fill(dt);
                     if (dt.Rows[0][0].ToString() == "1")
@@ -101,42 +101,45 @@ namespace Registro
                         Prescripciones obj = new Prescripciones();
                         obj.Show();
                         this.Hide();
+
                     }
                     else
                     {
                         MessageBox.Show("Doctor no encontrado");
                     }
-
                     Con.Close();
+
                 }
             }
             else
             {
+
                 if (UsuarioTb.Text == "" || ContrasenaTb.Text == "")
                 {
-                    MessageBox.Show("Ingrese su nombre y contraseña");
+                    MessageBox.Show("Ingrese su Nombre y contraseña");
                 }
-                else
+                else if (UsuarioTb.Text == "Recepcionista" && ContrasenaTb.Text == "Pass")
                 {
                     Con.Open();
-                    SqlDataAdapter sda = new SqlDataAdapter("select count (*) from RecepcionistaTbl where RNombrer='" + UsuarioTb.Text + "' and Recepass='" + ContrasenaTb.Text + "'", Con);
+                    SqlDataAdapter sda = new SqlDataAdapter("select Count (*) from RecepcionistaTbl where RecepNombre ='" + UsuarioTb.Text + "' and RecepContraseña='" + ContrasenaTb.Text + "'", Con);
                     DataTable dt = new DataTable();
                     sda.Fill(dt);
                     if (dt.Rows[0][0].ToString() == "1")
                     {
-                        Role = "Recepcionista";
-
+                        Role = "Doctor";
                         Form2 obj = new Form2();
                         obj.Show();
                         this.Hide();
+
                     }
                     else
                     {
-                        MessageBox.Show("Recepcionista no encontrado");
+                        MessageBox.Show("Recepcionista  no encontrada");
                     }
-
                     Con.Close();
+
                 }
+
             }
         }
 

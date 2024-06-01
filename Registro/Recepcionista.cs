@@ -164,6 +164,11 @@ namespace Registro
         {
 
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
     //int Key = 0;
